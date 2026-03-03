@@ -39,7 +39,7 @@ const AdminLayout = () => {
                             </li>
 
                             <li>
-                                <NavLink to="/admin/services">
+                                <NavLink to="/service">
                                     <MdHomeRepairService /> Services
                                 </NavLink>
                             </li>

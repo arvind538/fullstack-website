@@ -70,6 +70,8 @@ const Card = () => {
                 className="py-2 px-3 border rounded"
               >
                 <option value="">Select</option>
+                <option>For Mens</option>
+                <option>For Gilrs</option>
                 <option>Electronics</option>
                 <option>Clothing</option>
                 <option>Accessories</option>

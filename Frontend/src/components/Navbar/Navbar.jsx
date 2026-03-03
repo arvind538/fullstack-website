@@ -8,10 +8,12 @@ import DarkMode from "./DarkMode";
 const Menu = [
   { id: 1, name: "Home", link: "/" },
   { id: 2, name: "Products", link: "/products" },
-  { id: 3, name: "Process", link: "/process" },
-  { id: 4, name: "Electronics", link: "/electronics" },
-  { id: 5, name: "Cloth", link: "/cloth" },
-
+  { id: 3, name: "Electronics", link: "/electronics" },
+  { id: 4, name: "Cloths", link: "/cloths" },
+  { id: 5, name: "For Mens", link: "/mens" },
+  { id: 6, name: "For Girls", link: "/girls" },
+  { id: 7, name: "Process", link: "/process" },
+  
 ];
 
 const Navbar = () => {

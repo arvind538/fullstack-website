@@ -66,12 +66,12 @@ const AdminUsers = () => {
 
     useEffect(() => {
         getAllUsersData();
-    }, [authorizationToken]); // ✅ safe dependency
+    }, [authorizationToken]); 
 
     return (
         <section className="admin-section">
             <div className="container">
-                <h1 className="admin-heading ml-90 underline">Admin Users Data</h1>
+                <h1 className="admin-heading m-3 p-3 ml-90 text-2xl underline">Admin Users Data</h1>
             </div>
 
             <div className="container admin-users">

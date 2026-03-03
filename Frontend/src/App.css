@@ -7,10 +7,6 @@
 .font-poppins {
     font-family: 'Poppins', sans-serif;
 }
-/* *{
-    margin: 0;
-    padding: 0;
-} */
 
 .marquee-inner {
     animation: marqueeScroll linear infinite;
@@ -58,7 +54,7 @@
     gap: 25px;
 }
 
-/* ===== Card Design ===== */
+/* --- Card Design --- */
 .service-card {
     background: #fff;
     border-radius: 15px;

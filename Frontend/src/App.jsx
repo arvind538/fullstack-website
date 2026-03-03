@@ -31,7 +31,12 @@ import Process from "./Pages/Process";
 import Electronics from "./Pages/Electronic";
 import Service from "./Pages/Service";
 import Cart from "./Pages/Cart";
-import Cloth from "./Pages/Cloth";
+import Cloths from "./Pages/Cloths";
+import Mens from "./Pages/Mens";
+import Girls from "./Pages/Girls";
+import ClaimNow from "./Pages/ClaimNow";
+
+
 const App = () => {
   const [orderPopup, setOrderPopup] = React.useState(false);
 
@@ -81,16 +86,13 @@ const App = () => {
         <Route path="/products" element={<NewProducts />} />
         <Route path="/process" element={<Process />} />
         <Route path="/electronics" element={<Electronics />} />
-        <Route path="/cart" element={<Cart />} />
-        <Route path="/cloth" element={<Cloth />} />
-
-
-
-
-
+        <Route path="/cart" element={<Cart />} /> 
+        <Route path="/cloths" element={<Cloths />} />
+        <Route path="/mens" element={<Mens />} />
+        <Route path="/girls" element={<Girls />} />
+        <Route path="/claim-now" element={<ClaimNow />} />
 
         <Route path="*" element={<Error />} />
-
 
         {/* Admin Routes */}
         <Route path="/admin" element={<AdminLayout />}>
@@ -99,12 +101,12 @@ const App = () => {
           <Route path="users/:id/edit" element={<AdminUpdate />} />
         </Route>
 
-
       </Routes>
+
       {/* Routes END */}
       <Brand />
       <Footer />
-      <Popup orderPopup={orderPopup} setOrderPopup={setOrderPopup} />
+      <Popup />
     </div>
   );
 };
