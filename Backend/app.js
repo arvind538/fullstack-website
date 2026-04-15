@@ -2,11 +2,11 @@ require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
 const connectDB = require("./utils/db");
-const authRoute = require("./router/auth-router");
-const contactRoute = require("./router/contact-router");
-const serviceRoute = require("./router/service-router");
-const adminRoute = require("./router/admin-router");
-const errorMiddleware = require("./middlewares/error-middleware");
+const authRoute = require("./Router/auth-router");
+const contactRoute = require("./Router/contact-router");
+const serviceRoute = require("./Router/service-router");
+const adminRoute = require("./Router/admin-router");
+const errorMiddleware = require("./Middlewares/error-middleware");
 
 const app = express();
 app.use(
